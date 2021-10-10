@@ -6,6 +6,8 @@
     - [Create a Database](#create-a-database)
     - [Add a Table](#add-a-table)
     - [Add Data](#add-data)
+- [Node.js Client](#nodejs-client)
+    - [Start the Client](#start-the-client)
 
 <!-- /TOC -->
 
@@ -79,14 +81,14 @@ VALUES
   ('Persepolis Rising', '978-0-316-33283-5', 2017, 560, NOW() - interval '122 days'),
   ('Tiamats Wrath', '978-0-316-33286-6', 2019, 544, NOW() - interval '98 days'),
   ('Leviathan Falls', '978-0-356-51039-2', 2021, 528, NOW() - interval '21 days');
- ```
+```
  
  
- ## Node.js Client
+## Node.js Client
  
- ### Start the Client
+### Start the Client
  
- ```bash
+```bash
  npm install
  node server_express.js
 running on http://localhost:8888
